@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(104, 86, 86);
+    background-color: antiquewhite;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: maroon;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+
+a:visited {
+    color: blue;
+}
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify{text-align: justify;}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.homebg {
+    background-image: url('../Images/Sunset.jpg');
+    background-size: cover;
+    /* background repeat: */
+}
+
+.right {
+    text-align: right;
+}
+
